@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook-logo-button</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Particulier" transform="translate(-1311.000000, -4503.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-11" transform="translate(1234.000000, 4503.000000)">
+                <g id="facebook-logo-button" transform="translate(77.000000, 0.000000)">
+                    <path d="M29,0 C13.0094659,0 0,13.0094659 0,29 C0,44.989366 13.0094659,58 29,58 C44.989366,58 58,44.989366 58,29 C58,13.0094659 44.9917022,0 29,0 Z M36.2120358,30.0209458 L31.4939579,30.0209458 C31.4939579,37.5588899 31.4939579,46.8373479 31.4939579,46.8373479 L24.5026988,46.8373479 C24.5026988,46.8373479 24.5026988,37.6488359 24.5026988,30.0209458 L21.1793684,30.0209458 L21.1793684,24.0774994 L24.5026988,24.0774994 L24.5026988,20.233183 C24.5026988,17.4799001 25.8110046,13.1776766 31.5582051,13.1776766 L36.7388625,13.1975348 L36.7388625,18.9669298 C36.7388625,18.9669298 33.5907516,18.9669298 32.9786514,18.9669298 C32.3665512,18.9669298 31.4962942,19.2729799 31.4962942,20.5859583 L31.4962942,24.0786675 L36.8229679,24.0786675 L36.2120358,30.0209458 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

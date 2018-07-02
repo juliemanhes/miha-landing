@@ -1,0 +1,124 @@
+.results {
+	background-color: #F2F2F2;
+	padding-bottom: 30px;
+	position: relative;
+	&--title {
+		text-align: center;
+		padding: 20px 0;
+		margin-bottom: 30px;
+		p {
+			font-size: 25px;
+			font-weight: 600;
+			color:#000000;
+			font-family: $font-title;
+		}
+		h2 {
+			font-family: $font-title;
+			font-size: 45px;
+			color:$violet-title;
+			@media screen and (max-width: 650px) {
+				font-size: 30px;
+				width: 80%;
+				margin: 10px auto;
+			}
+			strong {
+				font-weight: bold;
+			}
+		}
+	}
+	&--photos {
+		display: flex;
+		justify-content:center;
+		@media screen and (max-width: 768px) {
+      		flex-wrap:wrap;
+    	}
+		img {
+			width: 30%;
+			height: 30%;
+			border-radius: 5px;
+			@media screen and (max-width: 768px) {
+      			width: 60%;
+    		}
+    		@media screen and (max-width: 500px) {
+      			width: 80%;
+    		}
+			&:first-child {
+				margin-right: 25px;
+				@media screen and (max-width: 768px) {
+      				margin-right: 0;
+      				margin-bottom: 10px;
+    			}
+			}
+		}
+	}
+	&--cards {
+		display: flex;
+		width: 90%;
+		margin: 40px auto;
+		justify-content:space-between;
+		@media screen and (max-width: 970px) {
+      		flex-wrap:wrap;
+      		justify-content:center;
+    	}
+	}
+	&--card {
+		width: 32%;
+		background: $white;
+		font-family: $font-title;
+		border: 1px solid rgba(0,0,0,0.17);
+		border-radius: 12px;
+		@media screen and (max-width: 970px) {
+      		width: 45%;
+      		margin:25px 25px 0 0;
+    	}
+    	@media screen and (max-width: 670px) {
+    		width: 90%;
+    		margin-right: 0;
+    	}
+	}
+	&--card-title {
+		display: flex;
+		align-items:center;
+		@media screen and (max-width: 650px) {
+			flex-direction:column;
+			text-align: center;
+		}
+	}
+	&--card-header-stars {
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	&--card-before, &--card-after {
+		text-align: center;
+		padding:10px 0;
+	}
+	&--card-header {
+		padding: 15px;
+		h4 {
+			font-size: 29px;
+			font-weight: 600;
+		}
+		p {
+			@media screen and (max-width: 650px) {
+				text-align: center;
+				margin-top: 10px;
+			}
+		}
+	}
+	&--card-measurements {
+		display: flex;
+		padding: 0 10px;
+		justify-content:space-between;
+		font-size: 18px;
+		margin: 10px 0;
+		@media screen and (max-width: 650px) {
+			font-size: 14px;
+		}
+	}
+	&--card-after {
+		background: $violet;
+		color:$white;
+		border-radius: 0 0 12px 12px;
+	}
+}
+

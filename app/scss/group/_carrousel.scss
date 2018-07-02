@@ -1,0 +1,55 @@
+.carrousel {
+	color:$white;
+	margin-top: 30px;
+	position: relative;
+	background: #010101;
+	&--container {
+		min-height: 456px;
+		background: url('../img/coach.png');
+		background-repeat: no-repeat;
+		@media screen and (max-width: 650px) {
+			background:none;
+			min-height: 350px;
+		}
+
+	}
+	&--verbatim {
+        h3 {
+        	font-size: 45px;
+        	font-family: $font-title;
+        	font-weight: medium;
+        	float: right;
+        	width: 50%;
+        	margin-top: 20vh;
+			-webkit-transform:translateY(-20%);
+		    transform:translateY(-20%);
+        	text-align: left;
+        	position: relative;
+        	margin-bottom: 40px;
+        	@media screen and (max-width: 650px) {
+        		float:none;
+        		width: 100%;
+        		margin-top: 0;
+        		font-size: 38px;
+        		padding-top: 60px;
+        		-webkit-transform:translateY(0);
+		    	transform:translateY(0);
+        		text-align: center;
+        	}
+        }
+        p {
+        	font-size: 18px;
+        	width: 50%;
+        	clear: both;
+        	padding-right: 30px;
+        	float: right;
+        	text-align: left;
+        	@media screen and (max-width: 650px) {
+	        	float: none;
+	        	width: 80%;
+	        	margin: 0 auto;
+	        	text-align: center;
+	        }
+        }
+	}
+}

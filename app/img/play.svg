@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="103px" viewBox="0 0 103 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Particulier" transform="translate(-649.000000, -431.000000)">
+            <g id="Group" transform="translate(649.000000, 431.000000)">
+                <g id="Group-2" opacity="0.539620536" style="mix-blend-mode: hard-light;" fill="#FFFFFF">
+                    <circle id="Oval" opacity="0.183426339" cx="51.5" cy="51.5" r="51.5"></circle>
+                    <circle id="Oval-Copy" opacity="0.183426339" cx="52.5" cy="52.5" r="44.5"></circle>
+                    <circle id="Oval-Copy-2" opacity="0.183426339" cx="52.5" cy="52.5" r="35.5"></circle>
+                </g>
+                <path d="M52.4768619,34.17145 L70.7889434,47.5121158 C73.9136609,49.7885262 74.6013497,54.1670055 72.3249394,57.291723 C71.8959851,57.8805277 71.3777481,58.3987647 70.7889434,58.827719 L52.4768619,72.1683848 C49.3521444,74.4447952 44.9736651,73.7571064 42.6972547,70.6323889 C41.8249963,69.4350822 41.3550563,67.9919266 41.3550563,66.5105833 L41.3550563,39.8292516 C41.3550563,35.9632583 44.489063,32.8292516 48.3550563,32.8292516 C49.8363996,32.8292516 51.2795552,33.2991915 52.4768619,34.17145 Z" id="Rectangle-9" fill="#FF9D4B"></path>
+            </g>
+        </g>
+    </g>
+</svg>

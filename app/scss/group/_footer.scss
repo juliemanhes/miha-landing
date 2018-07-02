@@ -1,0 +1,44 @@
+.footer {
+	background: #011627;
+	color:$white;
+	&--copyright {
+		text-align: center;
+		vertical-align: middle;
+		padding-top: 25px;
+		@media screen and (max-width: 768px) {
+			text-align: left;
+			margin-left: 10px;
+		}
+	}
+	&--socials {
+		display: flex;
+		align-items:center;
+		justify-content:flex-end;
+		text-align: right;
+		margin-top: -50px;
+		padding-bottom: 10px;
+		p {
+			font-size: 29px;
+			font-weight: bold;
+			margin-right: 15px;
+			font-family: $font-title;
+			@media screen and (max-width: 768px) {
+				font-size: 20px;
+			}
+			@media screen and (max-width: 500px) {
+				margin-right: 0;
+			}
+		}
+		img {
+			margin-right: 15px;
+			width: 70%;
+			@media screen and (max-width: 768px) {
+				width: 60%;
+				margin-right: 5px;
+			}
+			@media screen and (max-width: 500px) {
+				margin-right: 0;
+			}
+		}
+	}
+}
