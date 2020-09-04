@@ -4,13 +4,12 @@ var navbar = document.querySelector('.header--nav');
 
 document.addEventListener('scroll', function (event) {
 	if (document.body.scrollTop  > 80 || event.pageY > 80) {
-      navbar.classList.add('sticky');
-  }
-  else if (document.body.scrollTop  < 80 || event.pageY < 80){
-    navbar.classList.remove('sticky');
-  }
+		navbar.classList.add('sticky');
+	}
+	else if (document.body.scrollTop  < 80 || event.pageY < 80){
+		navbar.classList.remove('sticky');
+  	}
  });
-console.log("caak");
 var burger = document.querySelectorAll(".header--nav-burger div");
 var burger1 = document.querySelector(".burger-1");
 var burger2 = document.querySelector(".burger-2");
